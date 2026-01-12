@@ -1,0 +1,395 @@
+{
+  "category": "scareware",
+  "description": "Fake virus alerts, system failure warnings, ransomware threats",
+  "expected_result": {
+    "is_phishing": true,
+    "threat_type": "scareware"
+  },
+  "emails": [
+    {
+      "id": "scare_001",
+      "sender_email": "alert@windows-defender-alert.com",
+      "email_subject": "CRITICAL: Windows Defender detected 47 viruses",
+      "email_snippet": "Your system is critically infected! Windows Defender has quarantined 47 threats but cannot remove them. Download our security tool immediately or your files will be corrupted within 24 hours.",
+      "links": ["http://windows-cleaner.tk/download"]
+    },
+    {
+      "id": "scare_002",
+      "sender_email": "security@system-alert.net",
+      "email_subject": "WARNING: Your computer will crash in 2 hours",
+      "email_snippet": "Critical system error detected! Your hard drive is 94% corrupted. Download PC Repair Pro now to save your files before permanent data loss.",
+      "links": ["http://pc-repair-pro.xyz/emergency"]
+    },
+    {
+      "id": "scare_003",
+      "sender_email": "urgent@virus-removal.com",
+      "email_subject": "URGENT: Trojan.GenericKD detected on your device",
+      "email_snippet": "A dangerous trojan is stealing your passwords and banking information. Your data is being transmitted to hackers RIGHT NOW. Install our removal tool immediately!",
+      "links": ["http://trojan-remover.ml/install"]
+    },
+    {
+      "id": "scare_004",
+      "sender_email": "alert@ransomware-warning.net",
+      "email_subject": "Your files are being encrypted - ACT NOW",
+      "email_snippet": "RANSOMWARE DETECTED! Your photos, documents, and videos are being encrypted. You have 4 hours to install our decryption tool before your files are permanently locked.",
+      "links": ["http://decrypt-files.tk/save"]
+    },
+    {
+      "id": "scare_005",
+      "sender_email": "security@apple-security-alert.com",
+      "email_subject": "Your Mac is infected with 3 viruses",
+      "email_snippet": "MacOS Security Alert: Your MacBook is severely damaged by 3 viruses. Delete the viruses now to prevent more damage to your system. [REMOVE VIRUSES]",
+      "links": ["http://mac-cleaner.ga/remove"]
+    },
+    {
+      "id": "scare_006",
+      "sender_email": "warning@android-alert.net",
+      "email_subject": "(4) Viruses detected on your Android phone",
+      "email_snippet": "Your phone battery is being damaged by viruses! Install Android Cleaner Pro immediately to remove threats and extend battery life by 200%.",
+      "links": ["http://android-cleaner.xyz/install"]
+    },
+    {
+      "id": "scare_007",
+      "sender_email": "alert@iphone-security.com",
+      "email_subject": "Your iPhone has been HACKED",
+      "email_snippet": "SECURITY BREACH: Hackers are accessing your photos, messages, and location. Install iOS Security Shield NOW to remove spy software from your device.",
+      "links": ["http://ios-shield.tk/protect"]
+    },
+    {
+      "id": "scare_008",
+      "sender_email": "urgent@system-failure.net",
+      "email_subject": "CRITICAL: System failure imminent",
+      "email_snippet": "Your operating system will fail in 1 hour! Critical registry errors detected. Download System Repair Suite immediately to prevent complete system crash.",
+      "links": ["http://system-repair.ml/fix"]
+    },
+    {
+      "id": "scare_009",
+      "sender_email": "security@data-breach.com",
+      "email_subject": "Your personal data is on the Dark Web",
+      "email_snippet": "ALERT: Your SSN, credit cards, and passwords were found on the dark web. Hackers have your identity! Download our protection software immediately.",
+      "links": ["http://dark-web-scan.xyz/protect"]
+    },
+    {
+      "id": "scare_010",
+      "sender_email": "alert@spyware-detected.net",
+      "email_subject": "SPYWARE is recording your screen and keystrokes",
+      "email_snippet": "Someone is watching everything you do! Spyware is capturing your passwords, credit cards, and private photos. Remove it NOW with our anti-spy tool.",
+      "links": ["http://anti-spy.tk/remove"]
+    },
+    {
+      "id": "scare_011",
+      "sender_email": "warning@browser-hijacked.com",
+      "email_subject": "Your browser has been HIJACKED",
+      "email_snippet": "DANGER: Your browser is controlled by malware. All your searches and passwords are being stolen. Install Browser Guard Pro to regain control.",
+      "links": ["http://browser-guard.ga/install"]
+    },
+    {
+      "id": "scare_012",
+      "sender_email": "security@webcam-alert.net",
+      "email_subject": "ALERT: Your webcam is being accessed remotely",
+      "email_snippet": "PRIVACY BREACH: Hackers are watching you through your webcam! They have recorded private videos. Install Webcam Shield immediately to block access.",
+      "links": ["http://webcam-shield.xyz/block"]
+    },
+    {
+      "id": "scare_013",
+      "sender_email": "urgent@memory-full.com",
+      "email_subject": "Your device memory is 98% FULL - Crash imminent",
+      "email_snippet": "WARNING: Your device is critically low on memory due to junk files and malware. Download Memory Cleaner Pro now to free up space and speed up your device by 500%.",
+      "links": ["http://memory-cleaner.tk/free"]
+    },
+    {
+      "id": "scare_014",
+      "sender_email": "alert@cpu-overheating.net",
+      "email_subject": "DANGER: Your CPU is overheating - Risk of fire",
+      "email_snippet": "CRITICAL TEMPERATURE ALERT: Your processor is running at dangerous temperatures due to cryptomining malware. Install CPU Cooler Pro to prevent hardware damage.",
+      "links": ["http://cpu-cooler.ml/install"]
+    },
+    {
+      "id": "scare_015",
+      "sender_email": "security@battery-damage.com",
+      "email_subject": "Your battery is being DESTROYED by viruses",
+      "email_snippet": "BATTERY ALERT: Malicious apps are damaging your battery. It will die permanently in 7 days. Install Battery Saver Pro now to repair damage.",
+      "links": ["http://battery-saver.ga/repair"]
+    },
+    {
+      "id": "scare_016",
+      "sender_email": "warning@firewall-disabled.net",
+      "email_subject": "Your firewall was DISABLED by malware",
+      "email_snippet": "SECURITY DOWN: Your firewall has been disabled, leaving your system exposed to attacks. Install Firewall Pro to restore protection before hackers get in.",
+      "links": ["http://firewall-pro.xyz/enable"]
+    },
+    {
+      "id": "scare_017",
+      "sender_email": "alert@antivirus-expired.com",
+      "email_subject": "Your antivirus EXPIRED - You are unprotected",
+      "email_snippet": "DANGER: Your antivirus has expired and 23 threats are already on your system. Renew now with our premium protection before more damage is done.",
+      "links": ["http://antivirus-renew.tk/protect"]
+    },
+    {
+      "id": "scare_018",
+      "sender_email": "urgent@driver-error.net",
+      "email_subject": "CRITICAL: 15 outdated drivers putting your PC at risk",
+      "email_snippet": "Your drivers are critically outdated, causing system instability and security holes. Download Driver Updater Pro to fix all 15 issues immediately.",
+      "links": ["http://driver-updater.ml/fix"]
+    },
+    {
+      "id": "scare_019",
+      "sender_email": "security@registry-corrupt.com",
+      "email_subject": "1,247 registry errors detected - System unstable",
+      "email_snippet": "WARNING: Your Windows registry has 1,247 errors causing crashes and slowdowns. Install Registry Cleaner Pro to repair and boost performance by 300%.",
+      "links": ["http://registry-cleaner.ga/repair"]
+    },
+    {
+      "id": "scare_020",
+      "sender_email": "alert@disk-failure.net",
+      "email_subject": "HARD DRIVE FAILURE in 24 hours - Backup NOW",
+      "email_snippet": "CRITICAL: Your hard drive has 847 bad sectors and will fail soon. Download Disk Recovery Pro immediately to save your data before it's too late.",
+      "links": ["http://disk-recovery.xyz/save"]
+    },
+    {
+      "id": "scare_021",
+      "sender_email": "warning@email-hacked.com",
+      "email_subject": "Your email account is sending SPAM",
+      "email_snippet": "Your email was hacked and is sending spam to all your contacts! Your reputation is being destroyed. Install Email Security Pro to stop it now.",
+      "links": ["http://email-security.tk/stop"]
+    },
+    {
+      "id": "scare_022",
+      "sender_email": "security@network-breach.net",
+      "email_subject": "INTRUDER detected on your WiFi network",
+      "email_snippet": "ALERT: 7 unknown devices are connected to your network, stealing your bandwidth and data. Install Network Guard to kick them out immediately.",
+      "links": ["http://network-guard.ml/protect"]
+    },
+    {
+      "id": "scare_023",
+      "sender_email": "urgent@password-stolen.com",
+      "email_subject": "All your passwords have been STOLEN",
+      "email_snippet": "BREACH DETECTED: A keylogger captured all your passwords. Hackers are accessing your accounts right now. Install Password Shield Pro immediately.",
+      "links": ["http://password-shield.ga/secure"]
+    },
+    {
+      "id": "scare_024",
+      "sender_email": "alert@credit-card-stolen.net",
+      "email_subject": "Your credit card details are being sold online",
+      "email_snippet": "FINANCIAL ALERT: Your credit card information was found on hacker forums. Install Financial Guard Pro to monitor and protect your accounts.",
+      "links": ["http://financial-guard.xyz/protect"]
+    },
+    {
+      "id": "scare_025",
+      "sender_email": "warning@identity-theft.com",
+      "email_subject": "Someone is using YOUR identity",
+      "email_snippet": "IDENTITY ALERT: Your personal information is being used to open accounts and commit fraud. Install Identity Shield Pro to stop the criminals.",
+      "links": ["http://identity-shield.tk/stop"]
+    },
+    {
+      "id": "scare_026",
+      "sender_email": "security@facebook-hacked.net",
+      "email_subject": "Your Facebook is posting inappropriate content",
+      "email_snippet": "SOCIAL MEDIA BREACH: Your Facebook account is posting spam and inappropriate content. Your friends are seeing it! Install Social Guard to stop it.",
+      "links": ["http://social-guard.ml/clean"]
+    },
+    {
+      "id": "scare_027",
+      "sender_email": "urgent@instagram-hacked.com",
+      "email_subject": "Your Instagram photos are being DELETED",
+      "email_snippet": "ACCOUNT COMPROMISE: A hacker is deleting your Instagram photos one by one. Install Instagram Recovery Pro to stop them and recover your photos.",
+      "links": ["http://ig-recovery.ga/save"]
+    },
+    {
+      "id": "scare_028",
+      "sender_email": "alert@cloud-breach.net",
+      "email_subject": "Your cloud storage is being EMPTIED",
+      "email_snippet": "DATA LOSS ALERT: Someone is deleting all your cloud files. You have 30 minutes before everything is gone. Install Cloud Guard Pro now!",
+      "links": ["http://cloud-guard.xyz/protect"]
+    },
+    {
+      "id": "scare_029",
+      "sender_email": "warning@photo-leak.com",
+      "email_subject": "Your private photos are being shared online",
+      "email_snippet": "PRIVACY BREACH: Your private photos from your phone are being uploaded to adult websites. Install Photo Guard Pro immediately to stop this.",
+      "links": ["http://photo-guard.tk/stop"]
+    },
+    {
+      "id": "scare_030",
+      "sender_email": "security@location-tracked.net",
+      "email_subject": "STALKER is tracking your location",
+      "email_snippet": "GPS ALERT: Someone is tracking your every move through your phone. They know where you are RIGHT NOW. Install Location Guard to stop tracking.",
+      "links": ["http://location-guard.ml/block"]
+    },
+    {
+      "id": "scare_031",
+      "sender_email": "urgent@microphone-hacked.com",
+      "email_subject": "Your microphone is recording conversations",
+      "email_snippet": "AUDIO BREACH: Hackers are listening to your conversations through your device microphone. Install Mic Guard Pro to mute and protect.",
+      "links": ["http://mic-guard.ga/mute"]
+    },
+    {
+      "id": "scare_032",
+      "sender_email": "alert@sms-intercepted.net",
+      "email_subject": "Your text messages are being INTERCEPTED",
+      "email_snippet": "SMS BREACH: Someone is reading all your text messages including bank codes. Install SMS Guard Pro to encrypt your communications.",
+      "links": ["http://sms-guard.xyz/encrypt"]
+    },
+    {
+      "id": "scare_033",
+      "sender_email": "warning@call-recorded.com",
+      "email_subject": "All your phone calls are being RECORDED",
+      "email_snippet": "CALL INTERCEPTION: Your phone calls are being recorded and stored by hackers. Install Call Guard Pro to secure your conversations.",
+      "links": ["http://call-guard.tk/secure"]
+    },
+    {
+      "id": "scare_034",
+      "sender_email": "security@contacts-stolen.net",
+      "email_subject": "Your contacts are being used for SCAMS",
+      "email_snippet": "CONTACT BREACH: Hackers stole your contacts and are scamming your friends and family. Install Contact Guard Pro to warn them and protect yourself.",
+      "links": ["http://contact-guard.ml/protect"]
+    },
+    {
+      "id": "scare_035",
+      "sender_email": "urgent@calendar-hacked.com",
+      "email_subject": "Your calendar was filled with SPAM events",
+      "email_snippet": "CALENDAR SPAM: Hackers added malicious events to your calendar. Clicking them will infect your device. Install Calendar Guard to remove them.",
+      "links": ["http://calendar-guard.ga/clean"]
+    },
+    {
+      "id": "scare_036",
+      "sender_email": "alert@notes-stolen.net",
+      "email_subject": "Your private notes are being READ",
+      "email_snippet": "PRIVACY BREACH: Someone is accessing your notes app and reading your passwords, PINs, and secrets. Install Notes Guard Pro immediately.",
+      "links": ["http://notes-guard.xyz/secure"]
+    },
+    {
+      "id": "scare_037",
+      "sender_email": "warning@bluetooth-hack.com",
+      "email_subject": "Your Bluetooth is being EXPLOITED",
+      "email_snippet": "BLUETOOTH BREACH: Hackers are using Bluetooth to access your device without your knowledge. Install Bluetooth Guard to block unauthorized connections.",
+      "links": ["http://bluetooth-guard.tk/block"]
+    },
+    {
+      "id": "scare_038",
+      "sender_email": "security@nfc-exploit.net",
+      "email_subject": "Your NFC is being used to STEAL money",
+      "email_snippet": "CONTACTLESS FRAUD: Criminals are using NFC skimmers to steal money from your phone wallet. Install NFC Guard Pro to block unauthorized payments.",
+      "links": ["http://nfc-guard.ml/protect"]
+    },
+    {
+      "id": "scare_039",
+      "sender_email": "urgent@sim-swap.com",
+      "email_subject": "Your SIM card has been CLONED",
+      "email_snippet": "SIM SWAP ALERT: Hackers cloned your SIM and can receive your calls and texts. Your bank codes are compromised! Install SIM Guard immediately.",
+      "links": ["http://sim-guard.ga/protect"]
+    },
+    {
+      "id": "scare_040",
+      "sender_email": "alert@biometric-stolen.net",
+      "email_subject": "Your fingerprint data was STOLEN",
+      "email_snippet": "BIOMETRIC BREACH: Hackers extracted your fingerprint data and can unlock your devices. Install Biometric Guard to change your security settings.",
+      "links": ["http://biometric-guard.xyz/secure"]
+    },
+    {
+      "id": "scare_041",
+      "sender_email": "warning@face-id-hack.com",
+      "email_subject": "Your Face ID was COMPROMISED",
+      "email_snippet": "FACE ID BREACH: Someone created a 3D model of your face to unlock your phone. Install Face Guard Pro to add extra security layers.",
+      "links": ["http://face-guard.tk/protect"]
+    },
+    {
+      "id": "scare_042",
+      "sender_email": "security@smart-tv-hacked.net",
+      "email_subject": "Your Smart TV is watching YOU",
+      "email_snippet": "SMART TV BREACH: Hackers accessed your TV camera and microphone. They can see and hear everything in your living room. Install TV Guard now.",
+      "links": ["http://tv-guard.ml/block"]
+    },
+    {
+      "id": "scare_043",
+      "sender_email": "urgent@alexa-listening.com",
+      "email_subject": "Your Alexa is sending recordings to hackers",
+      "email_snippet": "SMART SPEAKER BREACH: Your Alexa is sending all conversations to unknown servers. Install Smart Home Guard to stop unauthorized data collection.",
+      "links": ["http://smart-guard.ga/stop"]
+    },
+    {
+      "id": "scare_044",
+      "sender_email": "alert@thermostat-hacked.net",
+      "email_subject": "Hackers are controlling your THERMOSTAT",
+      "email_snippet": "SMART HOME BREACH: Someone is remotely controlling your thermostat. They could freeze your pipes or start a fire. Install IoT Guard immediately.",
+      "links": ["http://iot-guard.xyz/secure"]
+    },
+    {
+      "id": "scare_045",
+      "sender_email": "warning@doorbell-hacked.com",
+      "email_subject": "Your doorbell camera is being WATCHED",
+      "email_snippet": "CAMERA BREACH: Hackers are viewing your doorbell camera feed and know when you leave home. Install Camera Guard Pro to block access.",
+      "links": ["http://camera-guard.tk/block"]
+    },
+    {
+      "id": "scare_046",
+      "sender_email": "security@car-hacked.net",
+      "email_subject": "Your connected car was COMPROMISED",
+      "email_snippet": "VEHICLE BREACH: Hackers can unlock your car and track your location. They could even disable your brakes. Install Car Guard Pro immediately!",
+      "links": ["http://car-guard.ml/protect"]
+    },
+    {
+      "id": "scare_047",
+      "sender_email": "urgent@pacemaker-alert.com",
+      "email_subject": "MEDICAL DEVICE: Critical security vulnerability",
+      "email_snippet": "HEALTH ALERT: Your connected medical device has a critical vulnerability. Hackers could interfere with its operation. Download Medical Guard now.",
+      "links": ["http://medical-guard.ga/secure"]
+    },
+    {
+      "id": "scare_048",
+      "sender_email": "alert@baby-monitor.net",
+      "email_subject": "STRANGERS are watching through your baby monitor",
+      "email_snippet": "BABY MONITOR BREACH: Unknown users are accessing your baby monitor camera. Protect your child now by installing Monitor Guard Pro.",
+      "links": ["http://monitor-guard.xyz/protect"]
+    },
+    {
+      "id": "scare_049",
+      "sender_email": "warning@gaming-hacked.com",
+      "email_subject": "Your gaming account is being SOLD",
+      "email_snippet": "GAMING BREACH: Your Steam/Xbox/PlayStation account is listed for sale on hacking forums. All your games will be stolen. Install Gaming Guard now.",
+      "links": ["http://gaming-guard.tk/protect"]
+    },
+    {
+      "id": "scare_050",
+      "sender_email": "security@crypto-drained.net",
+      "email_subject": "Your crypto wallet is being DRAINED",
+      "email_snippet": "CRYPTO ALERT: Hackers are transferring your cryptocurrency to unknown wallets. You have minutes to act. Install Crypto Guard Pro immediately!",
+      "links": ["http://crypto-guard.ml/stop"]
+    },
+    {
+      "id": "scare_051",
+      "sender_email": "urgent@banking-trojans.com",
+      "email_subject": "Banking trojan stealing your money RIGHT NOW",
+      "email_snippet": "FINANCIAL EMERGENCY: A banking trojan is intercepting your transactions and redirecting money. Install Bank Guard Pro to stop the theft.",
+      "links": ["http://bank-guard.ga/stop"]
+    },
+    {
+      "id": "scare_052",
+      "sender_email": "alert@tax-fraud.net",
+      "email_subject": "Someone filed taxes using YOUR identity",
+      "email_snippet": "TAX FRAUD ALERT: A criminal filed a fraudulent tax return using your SSN and is receiving your refund. Install Tax Guard Pro to report and protect.",
+      "links": ["http://tax-guard.xyz/report"]
+    },
+    {
+      "id": "scare_053",
+      "sender_email": "warning@insurance-fraud.com",
+      "email_subject": "Fake insurance claims filed in YOUR name",
+      "email_snippet": "INSURANCE FRAUD: Someone is filing false insurance claims using your identity. Your premiums will skyrocket. Install Insurance Guard to stop them.",
+      "links": ["http://insurance-guard.tk/stop"]
+    },
+    {
+      "id": "scare_054",
+      "sender_email": "security@employment-fraud.net",
+      "email_subject": "Someone is working using YOUR identity",
+      "email_snippet": "EMPLOYMENT FRAUD: A criminal is working using your SSN. The IRS thinks you owe taxes on income you never earned. Install ID Guard Pro now.",
+      "links": ["http://id-guard.ml/protect"]
+    },
+    {
+      "id": "scare_055",
+      "sender_email": "urgent@arrest-warrant.com",
+      "email_subject": "WARRANT issued for your arrest - Identity theft",
+      "email_snippet": "LEGAL ALERT: A warrant was issued in your name for crimes committed using your stolen identity. Install Legal Guard Pro to clear your name.",
+      "links": ["http://legal-guard.ga/help"]
+    }
+  ]
+}

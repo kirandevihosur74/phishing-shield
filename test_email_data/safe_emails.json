@@ -1,0 +1,395 @@
+{
+  "category": "benign",
+  "description": "Legitimate emails from trusted services, newsletters, notifications",
+  "expected_result": {
+    "is_phishing": false,
+    "threat_type": "benign"
+  },
+  "emails": [
+    {
+      "id": "safe_001",
+      "sender_email": "noreply@github.com",
+      "email_subject": "Your weekly GitHub digest",
+      "email_snippet": "Here's what happened on GitHub this week. Check out trending repositories and updates from projects you follow.",
+      "links": ["https://github.com/explore", "https://github.com/trending"]
+    },
+    {
+      "id": "safe_002",
+      "sender_email": "notifications@linkedin.com",
+      "email_subject": "You have 5 new connection requests",
+      "email_snippet": "John Smith, Sarah Johnson, and 3 others want to connect with you on LinkedIn.",
+      "links": ["https://www.linkedin.com/mynetwork/"]
+    },
+    {
+      "id": "safe_003",
+      "sender_email": "no-reply@accounts.google.com",
+      "email_subject": "Security alert: New sign-in to your Google Account",
+      "email_snippet": "We noticed a new sign-in to your Google Account on a Windows device. If this was you, you can ignore this message.",
+      "links": ["https://myaccount.google.com/security-checkup"]
+    },
+    {
+      "id": "safe_004",
+      "sender_email": "team@slack.com",
+      "email_subject": "Your Slack weekly digest",
+      "email_snippet": "You received 47 messages in 5 channels this week. Here's a summary of what you might have missed.",
+      "links": ["https://slack.com/"]
+    },
+    {
+      "id": "safe_005",
+      "sender_email": "noreply@medium.com",
+      "email_subject": "Daily digest: Stories you might like",
+      "email_snippet": "Based on your reading history, we think you'll enjoy these articles about technology and programming.",
+      "links": ["https://medium.com/"]
+    },
+    {
+      "id": "safe_006",
+      "sender_email": "hello@substack.com",
+      "email_subject": "New post from The Morning Brew",
+      "email_snippet": "Your favorite newsletter has a new edition. Click to read today's business news and market updates.",
+      "links": ["https://themorningbrew.substack.com/"]
+    },
+    {
+      "id": "safe_007",
+      "sender_email": "noreply@spotify.com",
+      "email_subject": "Your 2024 Wrapped is here!",
+      "email_snippet": "See your top songs, artists, and genres of the year. Share your music personality with friends.",
+      "links": ["https://spotify.com/wrapped"]
+    },
+    {
+      "id": "safe_008",
+      "sender_email": "support@netflix.com",
+      "email_subject": "New arrivals you might like",
+      "email_snippet": "Based on your viewing history, we've added new titles we think you'll love. Start watching now.",
+      "links": ["https://netflix.com/browse"]
+    },
+    {
+      "id": "safe_009",
+      "sender_email": "orders@amazon.com",
+      "email_subject": "Your Amazon order has shipped",
+      "email_snippet": "Your order #113-4567890-1234567 has been shipped and will arrive by Thursday. Track your package for delivery updates.",
+      "links": ["https://www.amazon.com/gp/css/order-history"]
+    },
+    {
+      "id": "safe_010",
+      "sender_email": "receipts@uber.com",
+      "email_subject": "Your trip with Uber",
+      "email_snippet": "Thanks for riding with Uber. Here's your receipt for your trip from Downtown to Airport. Total: $32.50.",
+      "links": ["https://riders.uber.com/trips"]
+    },
+    {
+      "id": "safe_011",
+      "sender_email": "noreply@airbnb.com",
+      "email_subject": "Booking confirmed for San Francisco",
+      "email_snippet": "Your reservation is confirmed! You'll be staying at Cozy Downtown Apartment from March 15-18. Here are the details.",
+      "links": ["https://www.airbnb.com/trips/v1"]
+    },
+    {
+      "id": "safe_012",
+      "sender_email": "updates@twitter.com",
+      "email_subject": "You have new followers",
+      "email_snippet": "5 new people followed you this week. See their profiles and engage with your growing audience.",
+      "links": ["https://twitter.com/followers"]
+    },
+    {
+      "id": "safe_013",
+      "sender_email": "noreply@facebook.com",
+      "email_subject": "You have memories to look back on today",
+      "email_snippet": "You have memories from 3 years ago today. Take a look back at what you shared and relive the moment.",
+      "links": ["https://www.facebook.com/memories"]
+    },
+    {
+      "id": "safe_014",
+      "sender_email": "notifications@instagram.com",
+      "email_subject": "Your weekly Instagram recap",
+      "email_snippet": "Here's how your posts performed this week: 234 likes, 18 comments, and 5 new followers.",
+      "links": ["https://www.instagram.com/accounts/activity"]
+    },
+    {
+      "id": "safe_015",
+      "sender_email": "noreply@zoom.us",
+      "email_subject": "Your meeting recording is ready",
+      "email_snippet": "The recording for 'Team Weekly Standup' is now available. Access it anytime from your Zoom account.",
+      "links": ["https://zoom.us/recording"]
+    },
+    {
+      "id": "safe_016",
+      "sender_email": "team@notion.so",
+      "email_subject": "Activity in your workspace",
+      "email_snippet": "John made changes to 'Q4 Planning' and Sarah commented on 'Product Roadmap'. Catch up on the latest updates.",
+      "links": ["https://www.notion.so/"]
+    },
+    {
+      "id": "safe_017",
+      "sender_email": "noreply@figma.com",
+      "email_subject": "You were mentioned in a comment",
+      "email_snippet": "Sarah mentioned you in a comment on 'Mobile App Redesign'. Click to view and respond.",
+      "links": ["https://www.figma.com/files"]
+    },
+    {
+      "id": "safe_018",
+      "sender_email": "support@dropbox.com",
+      "email_subject": "A file was shared with you",
+      "email_snippet": "John Smith shared 'Project Proposal.pdf' with you. Click to view the document in your Dropbox.",
+      "links": ["https://www.dropbox.com/home"]
+    },
+    {
+      "id": "safe_019",
+      "sender_email": "newsletter@producthunt.com",
+      "email_subject": "Today's top products",
+      "email_snippet": "Check out the hottest new products launched today, including AI tools, developer resources, and more.",
+      "links": ["https://www.producthunt.com/"]
+    },
+    {
+      "id": "safe_020",
+      "sender_email": "digest@hackernews.com",
+      "email_subject": "Hacker News Daily Top Stories",
+      "email_snippet": "Here are the top 10 stories from Hacker News today. Read what's trending in the tech community.",
+      "links": ["https://news.ycombinator.com/"]
+    },
+    {
+      "id": "safe_021",
+      "sender_email": "support@stripe.com",
+      "email_subject": "Payment received: $299.00",
+      "email_snippet": "You've received a payment of $299.00 from Customer ABC. The funds will be available in your bank account in 2 days.",
+      "links": ["https://dashboard.stripe.com/payments"]
+    },
+    {
+      "id": "safe_022",
+      "sender_email": "noreply@paypal.com",
+      "email_subject": "You've received $150.00",
+      "email_snippet": "John Smith sent you $150.00. The money is now available in your PayPal balance.",
+      "links": ["https://www.paypal.com/myaccount/summary"]
+    },
+    {
+      "id": "safe_023",
+      "sender_email": "alerts@chase.com",
+      "email_subject": "Your direct deposit has arrived",
+      "email_snippet": "A direct deposit of $3,245.67 from ACME Corp was posted to your checking account ending in 1234.",
+      "links": ["https://secure.chase.com/"]
+    },
+    {
+      "id": "safe_024",
+      "sender_email": "noreply@venmo.com",
+      "email_subject": "Sarah paid you $25.00",
+      "email_snippet": "Sarah paid you $25.00 for 'Lunch yesterday'. The payment is complete.",
+      "links": ["https://venmo.com/"]
+    },
+    {
+      "id": "safe_025",
+      "sender_email": "updates@mint.com",
+      "email_subject": "Your weekly financial summary",
+      "email_snippet": "Here's your spending breakdown for the week: Groceries $156, Dining $89, Transportation $45.",
+      "links": ["https://mint.intuit.com/overview"]
+    },
+    {
+      "id": "safe_026",
+      "sender_email": "noreply@expedia.com",
+      "email_subject": "Your flight itinerary to New York",
+      "email_snippet": "Your booking is confirmed! Departing SFO on March 20 at 8:00 AM, arriving JFK at 4:30 PM.",
+      "links": ["https://www.expedia.com/trips"]
+    },
+    {
+      "id": "safe_027",
+      "sender_email": "reservations@marriott.com",
+      "email_subject": "Your stay at Marriott New York is confirmed",
+      "email_snippet": "We look forward to welcoming you on March 20. Check-in starts at 3:00 PM. Here are your reservation details.",
+      "links": ["https://www.marriott.com/reservation/"]
+    },
+    {
+      "id": "safe_028",
+      "sender_email": "support@united.com",
+      "email_subject": "Check in now for your flight",
+      "email_snippet": "Your flight UA123 to New York departs in 24 hours. Check in now to select your seat and save time at the airport.",
+      "links": ["https://www.united.com/checkin"]
+    },
+    {
+      "id": "safe_029",
+      "sender_email": "no-reply@doordash.com",
+      "email_subject": "Your order is on the way!",
+      "email_snippet": "Good news! Your order from Chipotle is being prepared and will arrive in about 30 minutes.",
+      "links": ["https://www.doordash.com/orders"]
+    },
+    {
+      "id": "safe_030",
+      "sender_email": "orders@instacart.com",
+      "email_subject": "Your Costco order has been delivered",
+      "email_snippet": "Your groceries have been delivered! Check your doorstep. Rate your shopper to help improve the experience.",
+      "links": ["https://www.instacart.com/store/orders"]
+    },
+    {
+      "id": "safe_031",
+      "sender_email": "hello@grammarly.com",
+      "email_subject": "Your weekly writing stats",
+      "email_snippet": "You wrote 15,234 words this week and were more productive than 87% of Grammarly users. Keep it up!",
+      "links": ["https://app.grammarly.com/"]
+    },
+    {
+      "id": "safe_032",
+      "sender_email": "noreply@coursera.org",
+      "email_subject": "Continue learning: Machine Learning",
+      "email_snippet": "You're 65% through your Machine Learning course. Complete the next module and earn your certificate.",
+      "links": ["https://www.coursera.org/learn/machine-learning"]
+    },
+    {
+      "id": "safe_033",
+      "sender_email": "hello@duolingo.com",
+      "email_subject": "Don't lose your 30-day streak!",
+      "email_snippet": "You're on a 30-day streak! Complete today's Spanish lesson to keep it going.",
+      "links": ["https://www.duolingo.com/learn"]
+    },
+    {
+      "id": "safe_034",
+      "sender_email": "team@atlassian.com",
+      "email_subject": "JIRA update: Task assigned to you",
+      "email_snippet": "John assigned you 'Implement user authentication' in the Backend Sprint project. Due date: Friday.",
+      "links": ["https://yourcompany.atlassian.net/jira"]
+    },
+    {
+      "id": "safe_035",
+      "sender_email": "noreply@asana.com",
+      "email_subject": "Task completed: Design review",
+      "email_snippet": "Sarah marked 'Design review for homepage' as complete. View the project for more updates.",
+      "links": ["https://app.asana.com/"]
+    },
+    {
+      "id": "safe_036",
+      "sender_email": "notifications@trello.com",
+      "email_subject": "Card moved: Feature Request",
+      "email_snippet": "John moved 'Add dark mode' from 'In Progress' to 'Done'. Celebrate this milestone!",
+      "links": ["https://trello.com/"]
+    },
+    {
+      "id": "safe_037",
+      "sender_email": "support@shopify.com",
+      "email_subject": "You made a sale!",
+      "email_snippet": "Congratulations! You just received an order for $149.99. View the order details and prepare for shipping.",
+      "links": ["https://admin.shopify.com/orders"]
+    },
+    {
+      "id": "safe_038",
+      "sender_email": "noreply@etsy.com",
+      "email_subject": "Someone favorited your item",
+      "email_snippet": "Your handmade ceramic mug was added to 3 favorites today. Great job reaching new customers!",
+      "links": ["https://www.etsy.com/your/shops"]
+    },
+    {
+      "id": "safe_039",
+      "sender_email": "hello@mailchimp.com",
+      "email_subject": "Campaign report: Monthly Newsletter",
+      "email_snippet": "Your campaign was sent to 5,000 subscribers. Open rate: 24.5%, Click rate: 3.2%. View full analytics.",
+      "links": ["https://mailchimp.com/reports"]
+    },
+    {
+      "id": "safe_040",
+      "sender_email": "noreply@calendly.com",
+      "email_subject": "New event scheduled: Product Demo",
+      "email_snippet": "John Smith scheduled a 30-minute Product Demo with you for Thursday at 2:00 PM.",
+      "links": ["https://calendly.com/event_types"]
+    },
+    {
+      "id": "safe_041",
+      "sender_email": "support@digitalocean.com",
+      "email_subject": "Your droplet is running smoothly",
+      "email_snippet": "Your monthly infrastructure report is ready. All systems operational with 99.9% uptime this month.",
+      "links": ["https://cloud.digitalocean.com/droplets"]
+    },
+    {
+      "id": "safe_042",
+      "sender_email": "billing@aws.amazon.com",
+      "email_subject": "AWS billing statement available",
+      "email_snippet": "Your AWS billing statement for January is now available. Total charges: $47.23.",
+      "links": ["https://console.aws.amazon.com/billing"]
+    },
+    {
+      "id": "safe_043",
+      "sender_email": "noreply@vercel.com",
+      "email_subject": "Deployment successful",
+      "email_snippet": "Your deployment to production was successful. Your changes are now live at yoursite.vercel.app.",
+      "links": ["https://vercel.com/dashboard"]
+    },
+    {
+      "id": "safe_044",
+      "sender_email": "hello@netlify.com",
+      "email_subject": "Build complete: main branch",
+      "email_snippet": "Your site has been deployed! Build time: 45 seconds. Preview your changes at the deploy URL.",
+      "links": ["https://app.netlify.com/"]
+    },
+    {
+      "id": "safe_045",
+      "sender_email": "no-reply@npmjs.com",
+      "email_subject": "New package version published",
+      "email_snippet": "Version 2.1.0 of your-package has been published to npm. 1,234 weekly downloads and counting!",
+      "links": ["https://www.npmjs.com/"]
+    },
+    {
+      "id": "safe_046",
+      "sender_email": "team@codepen.io",
+      "email_subject": "Your Pen was picked!",
+      "email_snippet": "Congratulations! Your CSS animation pen was featured in this week's picks. Check out the reactions.",
+      "links": ["https://codepen.io/"]
+    },
+    {
+      "id": "safe_047",
+      "sender_email": "noreply@stackoverflow.com",
+      "email_subject": "Your answer was accepted",
+      "email_snippet": "Your answer to 'How to center a div in CSS?' was accepted and you earned +15 reputation.",
+      "links": ["https://stackoverflow.com/users"]
+    },
+    {
+      "id": "safe_048",
+      "sender_email": "support@reddit.com",
+      "email_subject": "Your post is trending",
+      "email_snippet": "Your post in r/programming is getting traction! 500 upvotes and counting. Join the conversation.",
+      "links": ["https://www.reddit.com/"]
+    },
+    {
+      "id": "safe_049",
+      "sender_email": "noreply@discord.com",
+      "email_subject": "You were mentioned in a server",
+      "email_snippet": "John mentioned you in #general on the Tech Community server. Click to view the message.",
+      "links": ["https://discord.com/channels"]
+    },
+    {
+      "id": "safe_050",
+      "sender_email": "digest@quora.com",
+      "email_subject": "Trending questions for you",
+      "email_snippet": "Based on your interests, here are questions you might want to answer: 'What programming language should I learn first?'",
+      "links": ["https://www.quora.com/"]
+    },
+    {
+      "id": "safe_051",
+      "sender_email": "hello@canva.com",
+      "email_subject": "Your design was viewed",
+      "email_snippet": "Your shared design 'Marketing Flyer' has been viewed 15 times. See who's engaging with your work.",
+      "links": ["https://www.canva.com/"]
+    },
+    {
+      "id": "safe_052",
+      "sender_email": "noreply@dribbble.com",
+      "email_subject": "Someone liked your shot",
+      "email_snippet": "Your design 'Mobile App UI' received 50 likes this week. Keep sharing your amazing work!",
+      "links": ["https://dribbble.com/"]
+    },
+    {
+      "id": "safe_053",
+      "sender_email": "updates@behance.net",
+      "email_subject": "Your project got featured",
+      "email_snippet": "Congratulations! Your project 'Brand Identity Design' was featured on the Behance homepage.",
+      "links": ["https://www.behance.net/"]
+    },
+    {
+      "id": "safe_054",
+      "sender_email": "no-reply@unsplash.com",
+      "email_subject": "Your photo was downloaded 100 times",
+      "email_snippet": "Your landscape photo has been downloaded 100 times! Thank you for contributing to the Unsplash community.",
+      "links": ["https://unsplash.com/"]
+    },
+    {
+      "id": "safe_055",
+      "sender_email": "hello@strava.com",
+      "email_subject": "Your weekly progress report",
+      "email_snippet": "This week you ran 25 miles and climbed 1,200 feet. You're in the top 10% of your age group!",
+      "links": ["https://www.strava.com/athlete/training"]
+    }
+  ]
+}

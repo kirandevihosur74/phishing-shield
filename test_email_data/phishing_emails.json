@@ -1,0 +1,395 @@
+{
+  "category": "phishing",
+  "description": "Credential harvesting, fake login pages, account verification scams",
+  "expected_result": {
+    "is_phishing": true,
+    "threat_type": "phishing"
+  },
+  "emails": [
+    {
+      "id": "phish_001",
+      "sender_email": "security@paypa1.com",
+      "email_subject": "URGENT: Your account has been limited",
+      "email_snippet": "We noticed unusual activity on your account. Please verify your identity within 24 hours or your account will be permanently suspended.",
+      "links": ["http://paypa1-secure.tk/verify"]
+    },
+    {
+      "id": "phish_002",
+      "sender_email": "support@amaz0n-orders.com",
+      "email_subject": "Your order #738-2847382 has been placed",
+      "email_snippet": "If you did not make this purchase of $899.99, click here immediately to cancel and secure your account.",
+      "links": ["http://amazon-cancel-order.xyz/refund"]
+    },
+    {
+      "id": "phish_003",
+      "sender_email": "noreply@appleid-verify.com",
+      "email_subject": "Your Apple ID has been locked",
+      "email_snippet": "Your Apple ID has been locked for security reasons. Verify your information to restore access to your account.",
+      "links": ["http://appleid-unlock.tk/restore"]
+    },
+    {
+      "id": "phish_004",
+      "sender_email": "security@netfl1x-support.com",
+      "email_subject": "Payment declined - Update required",
+      "email_snippet": "We were unable to process your payment. Update your billing information to continue enjoying Netflix.",
+      "links": ["http://netflix-billing.ml/update"]
+    },
+    {
+      "id": "phish_005",
+      "sender_email": "admin@micr0soft-365.com",
+      "email_subject": "Your Office 365 subscription expires today",
+      "email_snippet": "Your subscription will be cancelled unless you confirm your payment details immediately.",
+      "links": ["http://office365-renew.ga/payment"]
+    },
+    {
+      "id": "phish_006",
+      "sender_email": "security@chase-alerts.net",
+      "email_subject": "Suspicious login detected on your account",
+      "email_snippet": "We detected a login from an unrecognized device. If this wasn't you, secure your account now.",
+      "links": ["http://chase-secure.tk/verify"]
+    },
+    {
+      "id": "phish_007",
+      "sender_email": "support@bankofamerica-secure.com",
+      "email_subject": "Important: Verify your account information",
+      "email_snippet": "Due to recent security updates, we require all customers to verify their account information within 48 hours.",
+      "links": ["http://bofa-verify.xyz/secure"]
+    },
+    {
+      "id": "phish_008",
+      "sender_email": "noreply@wellsfargo-alerts.net",
+      "email_subject": "Your account access has been restricted",
+      "email_snippet": "Unusual activity detected. Complete verification to restore full access to your account.",
+      "links": ["http://wf-secure-login.tk/restore"]
+    },
+    {
+      "id": "phish_009",
+      "sender_email": "security@dropb0x.com",
+      "email_subject": "Someone shared a file with you",
+      "email_snippet": "John Smith shared 'Financial_Report_2024.pdf' with you. Sign in to view the document.",
+      "links": ["http://dropbox-view.ml/file/shared"]
+    },
+    {
+      "id": "phish_010",
+      "sender_email": "support@g00gle-drive.com",
+      "email_subject": "Storage limit exceeded - Action required",
+      "email_snippet": "Your Google Drive storage is full. Verify your account to get 50GB free bonus storage.",
+      "links": ["http://gdrive-upgrade.tk/storage"]
+    },
+    {
+      "id": "phish_011",
+      "sender_email": "billing@spotify-premium.net",
+      "email_subject": "Payment failed - Account will be downgraded",
+      "email_snippet": "We couldn't charge your card. Update payment method to keep Premium features.",
+      "links": ["http://spotify-pay.xyz/update"]
+    },
+    {
+      "id": "phish_012",
+      "sender_email": "security@instagram-verify.com",
+      "email_subject": "Confirm your identity to keep your account",
+      "email_snippet": "We detected suspicious activity. Verify your identity or your account will be disabled in 24 hours.",
+      "links": ["http://ig-verify.tk/confirm"]
+    },
+    {
+      "id": "phish_013",
+      "sender_email": "support@facebook-security.net",
+      "email_subject": "Your account will be permanently deleted",
+      "email_snippet": "Someone reported your account for violating terms. Appeal within 24 hours to prevent deletion.",
+      "links": ["http://fb-appeal.ml/review"]
+    },
+    {
+      "id": "phish_014",
+      "sender_email": "noreply@twitter-verify.com",
+      "email_subject": "Verify your account to keep the blue checkmark",
+      "email_snippet": "Under our new policy, verified accounts must re-verify. Complete verification to keep your badge.",
+      "links": ["http://twitter-badge.ga/verify"]
+    },
+    {
+      "id": "phish_015",
+      "sender_email": "security@linkedin-alerts.com",
+      "email_subject": "Your LinkedIn account was accessed from a new device",
+      "email_snippet": "We noticed a new sign-in from Russia. If this wasn't you, secure your account immediately.",
+      "links": ["http://linkedin-secure.tk/login"]
+    },
+    {
+      "id": "phish_016",
+      "sender_email": "support@coinbase-wallet.net",
+      "email_subject": "Unauthorized withdrawal attempt detected",
+      "email_snippet": "Someone tried to withdraw 2.5 BTC from your account. Verify your identity to block this transaction.",
+      "links": ["http://coinbase-block.xyz/verify"]
+    },
+    {
+      "id": "phish_017",
+      "sender_email": "alerts@binance-security.com",
+      "email_subject": "Complete KYC verification to avoid account suspension",
+      "email_snippet": "New regulatory requirements require identity verification. Complete KYC within 24 hours.",
+      "links": ["http://binance-kyc.tk/upload"]
+    },
+    {
+      "id": "phish_018",
+      "sender_email": "noreply@venm0-pay.com",
+      "email_subject": "Payment of $750.00 received - Confirm to deposit",
+      "email_snippet": "You received a payment. Log in to confirm and transfer to your bank account.",
+      "links": ["http://venmo-confirm.ml/deposit"]
+    },
+    {
+      "id": "phish_019",
+      "sender_email": "security@zelle-alerts.net",
+      "email_subject": "Your Zelle transfer of $1,200 is pending",
+      "email_snippet": "Verify your bank details to complete the transfer from Michael Johnson.",
+      "links": ["http://zelle-verify.ga/transfer"]
+    },
+    {
+      "id": "phish_020",
+      "sender_email": "support@cashapp-security.com",
+      "email_subject": "Unusual activity - Verify your Cash App",
+      "email_snippet": "We detected unusual activity and temporarily limited your account. Verify to restore access.",
+      "links": ["http://cashapp-restore.tk/verify"]
+    },
+    {
+      "id": "phish_021",
+      "sender_email": "hr@company-benefits.net",
+      "email_subject": "Action Required: Update your direct deposit information",
+      "email_snippet": "Due to a system upgrade, all employees must re-verify their banking information by Friday.",
+      "links": ["http://hr-portal.xyz/banking"]
+    },
+    {
+      "id": "phish_022",
+      "sender_email": "it@helpdesk-corp.com",
+      "email_subject": "Password expires in 24 hours",
+      "email_snippet": "Your corporate password will expire tomorrow. Click here to update it and avoid losing access.",
+      "links": ["http://password-reset.tk/corporate"]
+    },
+    {
+      "id": "phish_023",
+      "sender_email": "admin@sharepoint-docs.net",
+      "email_subject": "Document shared: Q4 Budget Report.xlsx",
+      "email_snippet": "Your manager shared a document with you. Sign in with your corporate credentials to view.",
+      "links": ["http://sharepoint-view.ml/doc"]
+    },
+    {
+      "id": "phish_024",
+      "sender_email": "security@docusign-verify.com",
+      "email_subject": "Complete your signature: Employment Agreement",
+      "email_snippet": "A document requires your signature. Review and sign to complete your onboarding.",
+      "links": ["http://docusign-sign.ga/agreement"]
+    },
+    {
+      "id": "phish_025",
+      "sender_email": "noreply@zoom-meeting.net",
+      "email_subject": "You missed a scheduled meeting - Recording available",
+      "email_snippet": "John Smith's meeting recording is available. Sign in to view the recording.",
+      "links": ["http://zoom-recording.tk/watch"]
+    },
+    {
+      "id": "phish_026",
+      "sender_email": "support@usps-delivery.com",
+      "email_subject": "Package delivery failed - Address verification needed",
+      "email_snippet": "Your package could not be delivered. Verify your address and pay the $1.99 redelivery fee.",
+      "links": ["http://usps-redeliver.xyz/pay"]
+    },
+    {
+      "id": "phish_027",
+      "sender_email": "alerts@fedex-tracking.net",
+      "email_subject": "Shipment on hold - Custom fees due",
+      "email_snippet": "Your international package requires customs clearance. Pay $45.00 to release your shipment.",
+      "links": ["http://fedex-customs.tk/pay"]
+    },
+    {
+      "id": "phish_028",
+      "sender_email": "noreply@ups-delivery.com",
+      "email_subject": "Final notice: Package will be returned",
+      "email_snippet": "We attempted delivery 3 times. Schedule redelivery now or package will be returned to sender.",
+      "links": ["http://ups-schedule.ml/redeliver"]
+    },
+    {
+      "id": "phish_029",
+      "sender_email": "support@dhl-express.net",
+      "email_subject": "Your shipment is delayed - Update delivery preferences",
+      "email_snippet": "Due to incomplete address information, we need you to confirm delivery details.",
+      "links": ["http://dhl-confirm.ga/address"]
+    },
+    {
+      "id": "phish_030",
+      "sender_email": "billing@adobe-creative.com",
+      "email_subject": "Your Creative Cloud subscription payment failed",
+      "email_snippet": "We couldn't process your payment. Update your billing information to continue using Adobe apps.",
+      "links": ["http://adobe-billing.tk/update"]
+    },
+    {
+      "id": "phish_031",
+      "sender_email": "security@icloud-verify.net",
+      "email_subject": "Your iCloud storage is almost full",
+      "email_snippet": "Upgrade your storage plan now. As a special offer, get 200GB free by verifying your account.",
+      "links": ["http://icloud-upgrade.xyz/free"]
+    },
+    {
+      "id": "phish_032",
+      "sender_email": "noreply@steam-support.com",
+      "email_subject": "Your Steam account has been compromised",
+      "email_snippet": "We detected unauthorized access. Reset your password immediately to secure your games library.",
+      "links": ["http://steam-reset.tk/password"]
+    },
+    {
+      "id": "phish_033",
+      "sender_email": "support@ebay-seller.net",
+      "email_subject": "Buyer filed a dispute - Respond within 24 hours",
+      "email_snippet": "A buyer claims item not received. Log in to provide tracking information and avoid refund.",
+      "links": ["http://ebay-dispute.ml/respond"]
+    },
+    {
+      "id": "phish_034",
+      "sender_email": "alerts@walmart-orders.com",
+      "email_subject": "Order confirmation #WMT-8374628",
+      "email_snippet": "Your order for iPhone 15 Pro ($1,299.00) is confirmed. If you didn't place this order, cancel here.",
+      "links": ["http://walmart-cancel.ga/order"]
+    },
+    {
+      "id": "phish_035",
+      "sender_email": "security@target-rewards.net",
+      "email_subject": "Redeem your 5,000 Target Circle points",
+      "email_snippet": "Your points expire in 48 hours. Sign in to redeem your $50 reward before it's gone.",
+      "links": ["http://target-redeem.tk/points"]
+    },
+    {
+      "id": "phish_036",
+      "sender_email": "noreply@bestbuy-rewards.com",
+      "email_subject": "You've won a $500 Best Buy Gift Card!",
+      "email_snippet": "Congratulations! Claim your prize by verifying your information within 24 hours.",
+      "links": ["http://bestbuy-prize.xyz/claim"]
+    },
+    {
+      "id": "phish_037",
+      "sender_email": "support@costco-membership.net",
+      "email_subject": "Your Costco membership has expired",
+      "email_snippet": "Renew your Executive membership today and get a $25 bonus gift card.",
+      "links": ["http://costco-renew.ml/membership"]
+    },
+    {
+      "id": "phish_038",
+      "sender_email": "billing@hulu-streaming.com",
+      "email_subject": "Your Hulu subscription has been cancelled",
+      "email_snippet": "Due to payment issues, your subscription was cancelled. Reactivate now to avoid losing your watchlist.",
+      "links": ["http://hulu-reactivate.tk/billing"]
+    },
+    {
+      "id": "phish_039",
+      "sender_email": "security@disney-plus.net",
+      "email_subject": "Suspicious activity on your Disney+ account",
+      "email_snippet": "Someone accessed your account from an unknown device. Secure your account immediately.",
+      "links": ["http://disneyplus-secure.ga/verify"]
+    },
+    {
+      "id": "phish_040",
+      "sender_email": "support@hbo-max.com",
+      "email_subject": "Complete your HBO Max profile setup",
+      "email_snippet": "Your free trial is active. Complete your profile to unlock all features and continue watching.",
+      "links": ["http://hbomax-setup.xyz/profile"]
+    },
+    {
+      "id": "phish_041",
+      "sender_email": "noreply@att-wireless.net",
+      "email_subject": "Your AT&T bill is past due - Service interruption warning",
+      "email_snippet": "Pay your outstanding balance of $178.45 immediately to avoid service disconnection.",
+      "links": ["http://att-pay.tk/bill"]
+    },
+    {
+      "id": "phish_042",
+      "sender_email": "billing@verizon-wireless.com",
+      "email_subject": "Verizon: Your payment method needs updating",
+      "email_snippet": "The card on file has expired. Update your payment method to continue your service.",
+      "links": ["http://verizon-update.ml/payment"]
+    },
+    {
+      "id": "phish_043",
+      "sender_email": "alerts@tmobile-rewards.net",
+      "email_subject": "You're eligible for a free iPhone upgrade!",
+      "email_snippet": "As a valued T-Mobile customer, claim your free iPhone 15. Limited time offer - verify now.",
+      "links": ["http://tmobile-upgrade.ga/free"]
+    },
+    {
+      "id": "phish_044",
+      "sender_email": "security@xfinity-account.com",
+      "email_subject": "Important: Verify your Xfinity account",
+      "email_snippet": "We need to verify your identity due to recent security updates. Complete verification within 48 hours.",
+      "links": ["http://xfinity-verify.tk/account"]
+    },
+    {
+      "id": "phish_045",
+      "sender_email": "noreply@spectrum-billing.net",
+      "email_subject": "Spectrum: Your service will be disconnected",
+      "email_snippet": "Your account is past due. Pay now to avoid service interruption and reconnection fees.",
+      "links": ["http://spectrum-pay.xyz/bill"]
+    },
+    {
+      "id": "phish_046",
+      "sender_email": "support@uber-rides.com",
+      "email_subject": "Receipt for your trip - $847.23",
+      "email_snippet": "Thanks for riding with Uber. If you didn't take this trip, report it immediately.",
+      "links": ["http://uber-dispute.ml/trip"]
+    },
+    {
+      "id": "phish_047",
+      "sender_email": "alerts@lyft-account.net",
+      "email_subject": "Your Lyft account has been suspended",
+      "email_snippet": "Due to suspicious activity, your account was suspended. Verify your identity to reactivate.",
+      "links": ["http://lyft-verify.tk/reactivate"]
+    },
+    {
+      "id": "phish_048",
+      "sender_email": "noreply@doordash-orders.com",
+      "email_subject": "Your DoorDash order is on the way!",
+      "email_snippet": "Your $156.00 order from Red Lobster is being prepared. Didn't order? Cancel here immediately.",
+      "links": ["http://doordash-cancel.ga/order"]
+    },
+    {
+      "id": "phish_049",
+      "sender_email": "support@grubhub-delivery.net",
+      "email_subject": "Grubhub: Confirm your new delivery address",
+      "email_snippet": "Your delivery address was changed. If you didn't make this change, secure your account.",
+      "links": ["http://grubhub-secure.xyz/address"]
+    },
+    {
+      "id": "phish_050",
+      "sender_email": "security@instacart-orders.com",
+      "email_subject": "Instacart: Payment method declined",
+      "email_snippet": "Your order couldn't be processed. Update your payment method to complete your grocery delivery.",
+      "links": ["http://instacart-pay.tk/update"]
+    },
+    {
+      "id": "phish_051",
+      "sender_email": "alerts@irs-refund.gov.net",
+      "email_subject": "IRS: Your tax refund of $4,832.00 is pending",
+      "email_snippet": "Your tax refund is ready. Verify your direct deposit information to receive your refund within 3 days.",
+      "links": ["http://irs-refund.tk/verify"]
+    },
+    {
+      "id": "phish_052",
+      "sender_email": "noreply@ssa-benefits.com",
+      "email_subject": "Social Security: Action required for your benefits",
+      "email_snippet": "Your Social Security benefits may be suspended. Verify your information to continue receiving payments.",
+      "links": ["http://ssa-verify.xyz/benefits"]
+    },
+    {
+      "id": "phish_053",
+      "sender_email": "support@dmv-renewal.net",
+      "email_subject": "DMV: Your driver's license renewal is due",
+      "email_snippet": "Renew your license online and save time. Complete the process by verifying your identity.",
+      "links": ["http://dmv-renew.ml/license"]
+    },
+    {
+      "id": "phish_054",
+      "sender_email": "alerts@medicare-update.com",
+      "email_subject": "Medicare: Update your plan information",
+      "email_snippet": "Important changes to your Medicare coverage require immediate action. Update your information now.",
+      "links": ["http://medicare-update.tk/plan"]
+    },
+    {
+      "id": "phish_055",
+      "sender_email": "security@stimulus-check.gov.net",
+      "email_subject": "Claim your $1,400 stimulus payment",
+      "email_snippet": "You're eligible for an additional stimulus payment. Verify your identity and bank details to receive funds.",
+      "links": ["http://stimulus-claim.ga/payment"]
+    }
+  ]
+}

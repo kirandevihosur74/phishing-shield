@@ -1,0 +1,395 @@
+{
+  "category": "tech_support",
+  "description": "Fake tech support calls, remote access requests, Microsoft/Apple impersonation",
+  "expected_result": {
+    "is_phishing": true,
+    "threat_type": "tech_support"
+  },
+  "emails": [
+    {
+      "id": "tech_001",
+      "sender_email": "support@microsoft-helpdesk.net",
+      "email_subject": "URGENT: Your computer has been infected with malware",
+      "email_snippet": "Microsoft has detected a critical virus on your computer. Call 1-800-555-0123 immediately to speak with a certified technician.",
+      "links": []
+    },
+    {
+      "id": "tech_002",
+      "sender_email": "security@apple-support.com",
+      "email_subject": "Your Apple ID was used to sign in on a new device",
+      "email_snippet": "Suspicious activity detected. Call Apple Support at 1-888-555-0456 now to secure your account before your data is compromised.",
+      "links": []
+    },
+    {
+      "id": "tech_003",
+      "sender_email": "alert@windows-defender.net",
+      "email_subject": "Windows Defender Alert: Trojan detected",
+      "email_snippet": "Your computer is at risk! Do not restart. Call Microsoft Support 1-877-555-0789 to have our technician remove the threat using TeamViewer.",
+      "links": []
+    },
+    {
+      "id": "tech_004",
+      "sender_email": "support@geek-squad.net",
+      "email_subject": "Geek Squad: Your subscription will auto-renew for $399.99",
+      "email_snippet": "Your Geek Squad protection plan will renew tomorrow. Call 1-855-555-0321 within 24 hours to cancel and get a full refund.",
+      "links": []
+    },
+    {
+      "id": "tech_005",
+      "sender_email": "billing@norton-security.com",
+      "email_subject": "Norton: Invoice #NRT-847362 - $349.99 charged",
+      "email_snippet": "Your Norton subscription has been renewed. If you didn't authorize this, call 1-866-555-0654 immediately for a refund.",
+      "links": []
+    },
+    {
+      "id": "tech_006",
+      "sender_email": "alert@mcafee-protection.net",
+      "email_subject": "McAfee: Critical security warning for your PC",
+      "email_snippet": "Your McAfee protection has expired. Hackers may be accessing your files. Call 1-844-555-0987 to renew and remove threats.",
+      "links": []
+    },
+    {
+      "id": "tech_007",
+      "sender_email": "support@dell-technical.com",
+      "email_subject": "Dell Support: Your warranty claim has been approved",
+      "email_snippet": "Your laptop repair claim is ready. Call 1-800-555-1234 to schedule a technician visit. We'll need remote access to diagnose.",
+      "links": []
+    },
+    {
+      "id": "tech_008",
+      "sender_email": "alert@hp-support.net",
+      "email_subject": "HP Printer: Driver update required - Security risk",
+      "email_snippet": "Your HP printer driver is outdated and vulnerable. Call HP Support 1-888-555-5678 for assistance with the update.",
+      "links": []
+    },
+    {
+      "id": "tech_009",
+      "sender_email": "security@amazon-prime.net",
+      "email_subject": "Amazon: Unauthorized purchase of $1,847.00 detected",
+      "email_snippet": "Someone used your account. Call Amazon Security 1-877-555-9012 immediately. Do not click any links - call us directly.",
+      "links": []
+    },
+    {
+      "id": "tech_010",
+      "sender_email": "support@paypal-security.com",
+      "email_subject": "PayPal: Your account has been limited",
+      "email_snippet": "Unusual activity detected. Call PayPal Security at 1-855-555-3456 to verify your identity and restore account access.",
+      "links": []
+    },
+    {
+      "id": "tech_011",
+      "sender_email": "alert@outlook-support.net",
+      "email_subject": "Microsoft Outlook: Mailbox storage exceeded",
+      "email_snippet": "Your mailbox is full and emails are being rejected. Call Microsoft 365 Support 1-866-555-7890 for immediate assistance.",
+      "links": []
+    },
+    {
+      "id": "tech_012",
+      "sender_email": "security@google-account.com",
+      "email_subject": "Google: Critical security alert for your account",
+      "email_snippet": "Someone in Russia signed in to your Google Account. Call Google Support 1-844-555-2345 now to secure your data.",
+      "links": []
+    },
+    {
+      "id": "tech_013",
+      "sender_email": "support@facebook-help.net",
+      "email_subject": "Facebook: Your account will be deactivated",
+      "email_snippet": "Copyright violation detected. Call Facebook Support 1-800-555-6789 within 24 hours to appeal or your account will be deleted.",
+      "links": []
+    },
+    {
+      "id": "tech_014",
+      "sender_email": "alert@att-technical.com",
+      "email_subject": "AT&T: Network security breach detected",
+      "email_snippet": "Your AT&T account may have been compromised. Call our security team at 1-888-555-0147 immediately for assistance.",
+      "links": []
+    },
+    {
+      "id": "tech_015",
+      "sender_email": "support@verizon-tech.net",
+      "email_subject": "Verizon: Your router has been hacked",
+      "email_snippet": "Suspicious traffic detected from your network. Call Verizon Security 1-877-555-0258 to have a technician secure your router remotely.",
+      "links": []
+    },
+    {
+      "id": "tech_016",
+      "sender_email": "security@spectrum-support.com",
+      "email_subject": "Spectrum: Modem firmware critically outdated",
+      "email_snippet": "Your modem is vulnerable to attacks. Call Spectrum Technical Support 1-855-555-0369 to update firmware via remote access.",
+      "links": []
+    },
+    {
+      "id": "tech_017",
+      "sender_email": "alert@comcast-xfinity.net",
+      "email_subject": "Xfinity: Unusual data usage on your account",
+      "email_snippet": "We detected 500GB of unusual data transfer. Call Xfinity Security 1-866-555-0471 to investigate potential unauthorized access.",
+      "links": []
+    },
+    {
+      "id": "tech_018",
+      "sender_email": "support@avast-antivirus.com",
+      "email_subject": "Avast: Your PC is infected with 47 viruses",
+      "email_snippet": "Critical threats detected! Call Avast Support 1-844-555-0582 now. Our technician will use AnyDesk to remove all threats.",
+      "links": []
+    },
+    {
+      "id": "tech_019",
+      "sender_email": "alert@avg-security.net",
+      "email_subject": "AVG: Ransomware attack in progress",
+      "email_snippet": "Your files are being encrypted! Do not turn off your computer. Call AVG Emergency Support 1-800-555-0693 immediately.",
+      "links": []
+    },
+    {
+      "id": "tech_020",
+      "sender_email": "security@kaspersky-support.com",
+      "email_subject": "Kaspersky: License key expired - System vulnerable",
+      "email_snippet": "Your Kaspersky license expired. Your PC is unprotected. Call 1-888-555-0714 to renew and run a full system scan.",
+      "links": []
+    },
+    {
+      "id": "tech_021",
+      "sender_email": "support@bitdefender-help.net",
+      "email_subject": "Bitdefender Alert: Banking trojan detected",
+      "email_snippet": "A banking trojan is stealing your credentials. Call Bitdefender Emergency 1-877-555-0825 before making any financial transactions.",
+      "links": []
+    },
+    {
+      "id": "tech_022",
+      "sender_email": "alert@eset-security.com",
+      "email_subject": "ESET: Your firewall has been disabled by malware",
+      "email_snippet": "Critical security breach! Your firewall was disabled. Call ESET Support 1-855-555-0936 to restore protection.",
+      "links": []
+    },
+    {
+      "id": "tech_023",
+      "sender_email": "support@webroot-antivirus.net",
+      "email_subject": "Webroot: Subscription renewal failed",
+      "email_snippet": "Your Webroot protection is inactive. Call 1-866-555-1047 immediately to renew before hackers exploit your system.",
+      "links": []
+    },
+    {
+      "id": "tech_024",
+      "sender_email": "security@malwarebytes-support.com",
+      "email_subject": "Malwarebytes: 23 threats quarantined - Action required",
+      "email_snippet": "Malwarebytes blocked multiple threats but manual removal is needed. Call 1-844-555-1158 for technician assistance.",
+      "links": []
+    },
+    {
+      "id": "tech_025",
+      "sender_email": "alert@trend-micro.net",
+      "email_subject": "Trend Micro: Your identity may have been stolen",
+      "email_snippet": "We detected your personal information on the dark web. Call Trend Micro Identity Protection 1-800-555-1269 now.",
+      "links": []
+    },
+    {
+      "id": "tech_026",
+      "sender_email": "support@quickbooks-help.com",
+      "email_subject": "QuickBooks: Critical error in your company file",
+      "email_snippet": "Your QuickBooks data may be corrupted. Call Intuit Support 1-888-555-1371 to have a technician repair your file via LogMeIn.",
+      "links": []
+    },
+    {
+      "id": "tech_027",
+      "sender_email": "alert@turbotax-support.net",
+      "email_subject": "TurboTax: Error filing your tax return",
+      "email_snippet": "Your tax return was rejected by the IRS. Call TurboTax Support 1-877-555-1482 immediately to resolve and avoid penalties.",
+      "links": []
+    },
+    {
+      "id": "tech_028",
+      "sender_email": "security@adobe-help.com",
+      "email_subject": "Adobe: Your Creative Cloud has been compromised",
+      "email_snippet": "Unauthorized access to your Adobe account detected. Call Adobe Support 1-855-555-1593 to secure your subscription.",
+      "links": []
+    },
+    {
+      "id": "tech_029",
+      "sender_email": "support@autodesk-technical.net",
+      "email_subject": "Autodesk: License verification failed",
+      "email_snippet": "Your AutoCAD license couldn't be verified. Call Autodesk Support 1-866-555-1604 to avoid losing access to your projects.",
+      "links": []
+    },
+    {
+      "id": "tech_030",
+      "sender_email": "alert@dropbox-security.com",
+      "email_subject": "Dropbox: Someone is downloading all your files",
+      "email_snippet": "Suspicious bulk download detected from China. Call Dropbox Security 1-844-555-1715 immediately to stop the transfer.",
+      "links": []
+    },
+    {
+      "id": "tech_031",
+      "sender_email": "support@icloud-help.net",
+      "email_subject": "Apple: Your iCloud backup failed",
+      "email_snippet": "Your iPhone backup is failing due to a storage error. Call Apple iCloud Support 1-800-555-1826 for immediate assistance.",
+      "links": []
+    },
+    {
+      "id": "tech_032",
+      "sender_email": "security@onedrive-support.com",
+      "email_subject": "OneDrive: Ransomware detected in your files",
+      "email_snippet": "Microsoft detected encrypted files in your OneDrive. Call 1-888-555-1937 to restore your files before they're permanently lost.",
+      "links": []
+    },
+    {
+      "id": "tech_033",
+      "sender_email": "alert@gmail-security.net",
+      "email_subject": "Gmail: Suspicious app has access to your account",
+      "email_snippet": "A malicious app is reading your emails. Call Google Security 1-877-555-2048 to revoke access and secure your account.",
+      "links": []
+    },
+    {
+      "id": "tech_034",
+      "sender_email": "support@yahoo-help.com",
+      "email_subject": "Yahoo: Your account is sending spam emails",
+      "email_snippet": "Your Yahoo account was compromised. Call Yahoo Support 1-855-555-2159 immediately to clean your account and change credentials.",
+      "links": []
+    },
+    {
+      "id": "tech_035",
+      "sender_email": "security@aol-support.net",
+      "email_subject": "AOL: Critical update required for your email",
+      "email_snippet": "Your AOL email will stop working without this update. Call AOL Technical Support 1-866-555-2261 for assistance.",
+      "links": []
+    },
+    {
+      "id": "tech_036",
+      "sender_email": "alert@printer-support.com",
+      "email_subject": "Printer Error: Offline status cannot be resolved",
+      "email_snippet": "Your printer is showing offline and standard troubleshooting failed. Call Printer Support 1-844-555-2372 for remote diagnosis.",
+      "links": []
+    },
+    {
+      "id": "tech_037",
+      "sender_email": "support@router-help.net",
+      "email_subject": "Router Security: Firmware update required",
+      "email_snippet": "Your router firmware has critical vulnerabilities. Call Network Support 1-800-555-2483 for secure remote update.",
+      "links": []
+    },
+    {
+      "id": "tech_038",
+      "sender_email": "security@wifi-protection.com",
+      "email_subject": "Warning: Unknown devices on your WiFi network",
+      "email_snippet": "We detected 12 unauthorized devices on your network. Call WiFi Security 1-888-555-2594 to remove intruders.",
+      "links": []
+    },
+    {
+      "id": "tech_039",
+      "sender_email": "alert@smart-home.net",
+      "email_subject": "Smart Home Alert: Security cameras compromised",
+      "email_snippet": "Hackers may be viewing your security cameras. Call Smart Home Support 1-877-555-2605 to secure your devices.",
+      "links": []
+    },
+    {
+      "id": "tech_040",
+      "sender_email": "support@nest-security.com",
+      "email_subject": "Nest: Unauthorized access to your thermostat",
+      "email_snippet": "Someone changed your Nest settings remotely. Call Nest Security 1-855-555-2716 to secure your smart home.",
+      "links": []
+    },
+    {
+      "id": "tech_041",
+      "sender_email": "alert@ring-support.net",
+      "email_subject": "Ring: Your doorbell camera was hacked",
+      "email_snippet": "Your Ring camera may have been accessed by hackers. Call Ring Security 1-866-555-2827 immediately.",
+      "links": []
+    },
+    {
+      "id": "tech_042",
+      "sender_email": "security@alexa-help.com",
+      "email_subject": "Amazon Alexa: Privacy breach detected",
+      "email_snippet": "Your Alexa is recording and sending conversations. Call Amazon Privacy Support 1-844-555-2938 to disable this immediately.",
+      "links": []
+    },
+    {
+      "id": "tech_043",
+      "sender_email": "support@siri-security.net",
+      "email_subject": "Apple: Siri is sharing your data with third parties",
+      "email_snippet": "A privacy flaw was discovered. Call Apple Privacy Support 1-800-555-3049 to opt out and protect your data.",
+      "links": []
+    },
+    {
+      "id": "tech_044",
+      "sender_email": "alert@cortana-help.com",
+      "email_subject": "Microsoft: Cortana security vulnerability",
+      "email_snippet": "Cortana may be exposing your personal data. Call Microsoft Security 1-888-555-3151 for immediate assistance.",
+      "links": []
+    },
+    {
+      "id": "tech_045",
+      "sender_email": "support@zoom-security.net",
+      "email_subject": "Zoom: Your account was used for unauthorized meetings",
+      "email_snippet": "Someone is hosting meetings with your credentials. Call Zoom Security 1-877-555-3262 to secure your account.",
+      "links": []
+    },
+    {
+      "id": "tech_046",
+      "sender_email": "security@teams-support.com",
+      "email_subject": "Microsoft Teams: Malware spreading in your organization",
+      "email_snippet": "A malicious file was shared in your Teams. Call Microsoft 365 Security 1-855-555-3373 to contain the threat.",
+      "links": []
+    },
+    {
+      "id": "tech_047",
+      "sender_email": "alert@slack-help.net",
+      "email_subject": "Slack: Unauthorized workspace access detected",
+      "email_snippet": "Someone from an unknown location accessed your Slack. Call Slack Security 1-866-555-3484 immediately.",
+      "links": []
+    },
+    {
+      "id": "tech_048",
+      "sender_email": "support@vpn-security.com",
+      "email_subject": "VPN Alert: Your IP address has been exposed",
+      "email_snippet": "Your VPN leaked your real IP address. Call VPN Support 1-844-555-3595 to fix the configuration and protect your privacy.",
+      "links": []
+    },
+    {
+      "id": "tech_049",
+      "sender_email": "security@password-manager.net",
+      "email_subject": "LastPass: Master password may have been compromised",
+      "email_snippet": "We detected unusual activity. Call LastPass Security 1-800-555-3606 immediately to secure all your passwords.",
+      "links": []
+    },
+    {
+      "id": "tech_050",
+      "sender_email": "alert@1password-support.com",
+      "email_subject": "1Password: Emergency vault access detected",
+      "email_snippet": "Someone accessed your vault from an unknown device. Call 1Password Emergency Support 1-888-555-3717 now.",
+      "links": []
+    },
+    {
+      "id": "tech_051",
+      "sender_email": "support@bank-security.net",
+      "email_subject": "Your bank detected unusual activity - Call now",
+      "email_snippet": "Fraudulent transactions detected. Your account will be frozen. Call Bank Security 1-877-555-3828 before attempting any transactions.",
+      "links": []
+    },
+    {
+      "id": "tech_052",
+      "sender_email": "security@credit-card.com",
+      "email_subject": "Credit Card Alert: Your card was used overseas",
+      "email_snippet": "Suspicious transaction in Nigeria for $3,500. Call Card Security 1-855-555-3939 to block your card and dispute charges.",
+      "links": []
+    },
+    {
+      "id": "tech_053",
+      "sender_email": "alert@investment-security.net",
+      "email_subject": "Fidelity: Unauthorized trade executed in your account",
+      "email_snippet": "Someone sold all your stocks. Call Fidelity Security 1-866-555-4041 immediately to reverse the transaction.",
+      "links": []
+    },
+    {
+      "id": "tech_054",
+      "sender_email": "support@crypto-help.com",
+      "email_subject": "Coinbase: Your wallet is being drained",
+      "email_snippet": "We detected multiple withdrawal attempts. Call Coinbase Security 1-844-555-4152 to freeze your account now.",
+      "links": []
+    },
+    {
+      "id": "tech_055",
+      "sender_email": "security@social-security.net",
+      "email_subject": "SSA: Your Social Security number was used fraudulently",
+      "email_snippet": "Your SSN was used to open accounts. Call SSA Fraud Department 1-800-555-4263 to freeze your benefits and report identity theft.",
+      "links": []
+    }
+  ]
+}
