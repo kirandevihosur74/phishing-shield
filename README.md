@@ -22,7 +22,6 @@ When you open an email in Gmail, the Chrome extension automatically extracts the
 | **AI Analysis** | Claude AI classifies threats with confidence scores |
 | **Threat Types** | Phishing (Red), Tech Support (Yellow), Scareware (Purple), Safe (Green) |
 | **Fallback** | Local heuristic analysis if API is unavailable |
-| **Non-Blocking** | Background service worker keeps UI responsive |
 
 ## Quick Start
 
