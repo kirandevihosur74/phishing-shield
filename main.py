@@ -630,15 +630,41 @@ async def fallback_analysis(scan_request: ScanRequest) -> ScanResponse:
                 break
     
     # ═══════════════════════════════════════════════════════════════════════════════
-    # Link Analysis
+    # Link Analysis - CRITICAL for phishing detection
     # ═══════════════════════════════════════════════════════════════════════════════
     
     if scan_request.links:
         for link in scan_request.links[:5]:
             heuristic = await analyze_url_heuristically(link)
-            if heuristic["suspicious_indicators"]:
-                scores["phishing"] += 0.1 * min(len(heuristic["suspicious_indicators"]), 3)
-                reasons.extend(heuristic["suspicious_indicators"][:2])
+            indicators = heuristic.get("suspicious_indicators", [])
+            
+            if indicators:
+                # More aggressive scoring for link-based threats
+                num_indicators = len(indicators)
+                
+                # High-risk combinations trigger immediate threat detection
+                has_suspicious_tld = any("TLD" in ind for ind in indicators)
+                has_brand_impersonation = any("impersonation" in ind.lower() for ind in indicators)
+                has_credential_path = any("credential" in ind.lower() or "login" in ind.lower() for ind in indicators)
+                has_no_https = any("HTTPS" in ind for ind in indicators)
+                
+                # If suspicious TLD + brand impersonation = almost certain phishing
+                if has_suspicious_tld and has_brand_impersonation:
+                    scores["phishing"] += 0.7
+                    reasons.append("Suspicious domain impersonating brand")
+                # If suspicious TLD + credential harvesting path
+                elif has_suspicious_tld and has_credential_path:
+                    scores["phishing"] += 0.6
+                    reasons.append("Suspicious domain with login page")
+                # If brand impersonation + no HTTPS
+                elif has_brand_impersonation and has_no_https:
+                    scores["phishing"] += 0.5
+                    reasons.append("Unencrypted brand impersonation")
+                else:
+                    # Default: add weight per indicator
+                    scores["phishing"] += 0.15 * min(num_indicators, 4)
+                
+                reasons.extend(indicators[:2])
     
     # ═══════════════════════════════════════════════════════════════════════════════
     # Determine Threat Type

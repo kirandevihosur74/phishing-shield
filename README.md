@@ -64,16 +64,73 @@ python main.py
 
 ### Test via API
 
+**Phishing:**
 ```bash
-# Test phishing detection
 curl -X POST http://localhost:8000/scan \
   -H "Content-Type: application/json" \
   -d '{
     "sender_email": "security@paypa1.com",
     "links": ["http://paypa1-verify.tk/login"],
-    "email_subject": "Verify Your Account Now"
+    "email_subject": "URGENT: Verify Your Account Now",
+    "email_snippet": "Your account will be suspended. Click here to verify your identity immediately."
   }'
 ```
+
+**Tech Support Scam:**
+```bash
+curl -X POST http://localhost:8000/scan \
+  -H "Content-Type: application/json" \
+  -d '{
+    "sender_email": "support@microsoft-help.tk",
+    "email_subject": "Your Computer Has Been Compromised - Call Now",
+    "email_snippet": "Microsoft has detected unusual activity. Call 1-800-123-4567 immediately. Our certified technician will use TeamViewer to remove the virus."
+  }'
+```
+
+**Scareware:**
+```bash
+curl -X POST http://localhost:8000/scan \
+  -H "Content-Type: application/json" \
+  -d '{
+    "sender_email": "alert@security-center.net",
+    "email_subject": "CRITICAL: Virus Detected - Immediate Action Required",
+    "email_snippet": "Windows Defender has detected 47 viruses on your system. Your files will be encrypted in 24 hours unless you download our security tool now."
+  }'
+```
+
+**Safe Email:**
+```bash
+curl -X POST http://localhost:8000/scan \
+  -H "Content-Type: application/json" \
+  -d '{
+    "sender_email": "newsletter@github.com",
+    "links": ["https://github.com/explore"],
+    "email_subject": "Explore trending repositories this week",
+    "email_snippet": "Here are the top repositories trending on GitHub this week. Check out what developers are building."
+  }'
+```
+
+## Output Results
+
+### Phishing Detection (Red)
+Credential harvesting attempts, fake login pages, account verification scams.
+
+![Phishing Email Detection](sample_examples/phishing_email.png)
+
+### Tech Support Scam Detection (Yellow)
+Fake support numbers, remote access requests, Microsoft/Apple impersonation.
+
+![Tech Support Scam Detection](sample_examples/tech_support_email.png)
+
+### Scareware Detection (Purple)
+Fake virus alerts, system failure warnings, ransomware threats.
+
+![Scareware Detection](sample_examples/scareware_email.png)
+
+### Safe Email (Green)
+Legitimate emails with no threats detected.
+
+![Safe Email](sample_examples/safe_email.png)
 
 ## API Reference
 
