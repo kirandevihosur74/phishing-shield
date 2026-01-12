@@ -1,0 +1,18 @@
+# Phishing Detection API Dependencies
+# Python 3.10+ required
+
+# Web Framework
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+
+# Anthropic (Claude)
+anthropic>=0.40.0
+
+# HTTP Client for Browserbase
+httpx>=0.26.0
+
+# Data Validation
+pydantic>=2.5.0
+
+# Environment Variables (optional)
+python-dotenv>=1.0.0
